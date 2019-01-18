@@ -1,7 +1,7 @@
 # Project6
 ## national parks api assignment 
 
-**Why
+**Why**
 An assignment on Thinkful's curriculum. 
 
 **What**
@@ -9,11 +9,11 @@ Client-side asynchronous web app
 Display a list of national state parks, based on the state and number of results user wishes to see.
 Include Park name, a short description about the park, and the url to the park's official website.
 
-** How ** 
+**How** 
 Note: you may have to refresh the page in order to do a separate search
 
 
-** The Insides **
+**The Insides**
 * fetch to NPS API parks endpoint to access list of states available (this will go into the drop-down menu
 * within first promise, the loadDropDown function is called which accesses the states to be dipslayed into dropdown menu for user to select
 * Once the submit button is clicked, after selecting a state, and a number of results the user wishes to dislplay, the submitButton function is called, which collects the user input data and passes it into the callParksApi function to be called. 
