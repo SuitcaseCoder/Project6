@@ -1,11 +1,10 @@
 # Project6
 ## National Parks API Assignment 
-```
+
 An assignment on Thinkful's curriculum. 
 Client-side asynchronous web app
 Display a list of national state parks, based on the state and number of results user wishes to see
 Include Park name, a short description about the park, and the url to the park's official website
-```
 
 ## Built With
 
@@ -14,10 +13,9 @@ Include Park name, a short description about the park, and the url to the park's
 *JavaScript 
 
 ## Authors
-```
-* **Laura Ruiz-Roehrs** 
 
-```
+**Laura Ruiz-Roehrs** 
+
 ## The Insides
 
 * Fetch to NPS API parks endpoint to access list of states available (this will go into the drop-down menu
