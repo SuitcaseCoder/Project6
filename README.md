@@ -5,9 +5,9 @@ An assignment on Thinkful's curriculum.
 Client-side asynchronous web app
 Display a list of national state parks, based on the state and number of results user wishes to see
 Include Park name, a short description about the park, and the url to the park's official website
+```
 
 ## Built With
-```
 
 *HTML
 *CSS
@@ -17,10 +17,9 @@ Include Park name, a short description about the park, and the url to the park's
 ```
 * **Laura Ruiz-Roehrs** 
 
-
-
-## The Insides
 ```
+## The Insides
+
 * Fetch to NPS API parks endpoint to access list of states available (this will go into the drop-down menu
 * Within first promise, the loadDropDown function is called which accesses the states to be dipslayed into dropdown menu for user to select
 * Once the submit button is clicked, after selecting a state, and a number of results the user wishes to dislplay, the submitButton function is called, which collects the user input data and passes it into the callParksApi function to be called. 
